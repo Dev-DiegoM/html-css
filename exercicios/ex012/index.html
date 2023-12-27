@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML 5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+    <p>Estes vídeos estão hospedados no meu servidor</p>
+    <h2><strong>Vídeo 1</strong></h2>
+    <video src="videos/meu-video.mkv" poster="images/limoes-capa.png" width="500px" controls autoplay></video>
+
+    <h2><strong>Vídeo 2</strong></h2>
+    <video width="500px" poster="images/limoes-capa.png" controls loop>
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <source src="videos/Meu-Video.mkv" type="video/mkv">
+        <source src="videos/Meu-Video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h2><strong>Vídeo do YouTube</strong></h2>
+    <iframe width="500px" height="281px" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=mTHluWWkSLt2TpfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
