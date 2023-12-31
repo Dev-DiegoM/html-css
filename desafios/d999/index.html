@@ -39,11 +39,12 @@
             position: relative;
             top: 80px;
             left: 22px;
+
+            border: 1px solid white;
         }
 
         #social {
-            position: absolute;
-            left: calc(99vw - 70px);
+            text-align: right;
         }
 
         ul {
@@ -51,35 +52,35 @@
         }
 
         li img {
-            position: static;
             width: 50px;
             height: 50px;
             border-radius: 50%;
             margin: 10px;
+            box-shadow: 2px 2px 5px black;
         }
 
         li img:hover {
-            box-shadow: 2px 2px 5px black;
+            box-shadow: 4px 4px 10px black;
             border: solid 1px white;
-            margin: 8px;
-            transition-duration: 0.2s;
+            margin-bottom: 8px;
         }
+
 
     </style>
 </head>
 <body>
     <main>
         <section id="telefone">
-            <iframe src="ouhb" name="display" frameborder="0"></iframe>
+            <iframe src="home.html" name="display" frameborder="0" scrolling="auto"></iframe>
         </section>
         <section id="social">
             <ul>
                 <li><a href="home.html" target="display"><img src="imagens/logo-home.jpg" alt="img-home"></a></li>
-                <li><a href="#" target="display"><img src="imagens/logo-github.jpg" alt="img-github"></a></li>
-                <li><a href="#" target="display"><img src="imagens/logo-youtube.jpg" alt="img-youtube"></a></li>
-                <li><a href="#" target="display"><img src="imagens/logo-instagram.jpg" alt="img-instagram"></a></li>
-                <li><a href="#" target="display"><img src="imagens/logo-twitter.jpg" alt="img-twitter"></a></li>
-                <li><a href="#" target="display"><img src="imagens/logo-facebook.jpg" alt="img-facebook"></a></li>
+                <li><a href="github.html" target="display"><img src="imagens/logo-github.jpg" alt="img-github"></a></li>
+                <li><a href="youtube.html" target="display"><img src="imagens/logo-youtube.jpg" alt="img-youtube"></a></li>
+                <li><a href="instagram.html" target="display"><img src="imagens/logo-instagram.jpg" alt="img-instagram"></a></li>
+                <li><a href="twitter.html" target="display"><img src="imagens/logo-twitter.jpg" alt="img-twitter"></a></li>
+                <li><a href="facebook.html" target="display"><img src="imagens/logo-facebook.jpg" alt="img-facebook"></a></li>
             </ul>
         </section>
     </main>
