@@ -1,1 +1,23 @@
 /* Configurações gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2332fe;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px 0px #101777;
+    padding: 10px;
+}
