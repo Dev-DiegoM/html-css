@@ -13,15 +13,44 @@ header h1 {
     padding: 10px;
 }
 
-nav a {
+header span#menu-logo {
+    display: block;
+    color: white;
+    background-color: #363636;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header span#menu-logo:hover {
+    color: black;
+    background-color: white;
+
+}
+
+header span#menu:hover {
+    background-color: white;
+    color: black;
+}
+
+header menu {
+    display: none;
+}
+
+header > menu li {
+    text-align: center;
+    border-top: solid 2px #9B9999;
+}
+
+header > menu a {
+    display: block;
     background-color: #525152;
     color: white;
-    display: inline-block;
     padding: 5px;
     text-decoration: none;
 }
 
-nav a:hover {
+header > menu a:hover {
     background-color: #828182;
 }
 
@@ -30,17 +59,14 @@ body {
 }
 
 main {
-    background-color: white;
-    width: auto;
-    margin: auto;
-    border-radius: 10px;
-    margin: 10px;
     padding: 10px;
+    margin: auto;
 }
 
-main h1 {
-    font-size: 1.4em;
-    padding-bottom: 0.5em;
+article {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 main p {

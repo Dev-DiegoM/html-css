@@ -1,31 +1,33 @@
-@media screen and (min-width: 600px) and (max-width: 768px) { /* Celular */
+@media screen and (min-width: 600px) { /* Celular */
     main {
         width: 560px;
-        margin: auto;
-        margin-top: 10px;
+    }
+    
+    header li {
+        display: inline-block;
+    }
+
+    header span#menu-logo {
+        display: none;
+    }
+
+    header menu {
+        display: block;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) { /* Tablet */
+@media screen and (min-width: 769px) { /* Tablet */
     main {
         width: 600px;
-        margin: auto;
-        margin-top: 10px;
     }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) { /* Desktops */
+@media screen and (min-width: 993px){ /* Desktops */
     main {
-        width: 600px;
-        margin: auto;
-        margin-top: 10px;
+        width: 700px;
     }
 }
 
 @media screen and (min-width: 1200px) { /* Telas grandes */
-    main {
-        width: 600px;
-        margin: auto;
-        margin-top: 10px;
-    }
+
 }
