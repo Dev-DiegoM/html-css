@@ -12,7 +12,7 @@
         
     </style>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="menu-logo" class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
@@ -35,13 +35,21 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menuclick.style.display = 'block'
+            } else {
+                menuclick.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (menuclick.style.display == 'block') {
                 menuclick.style.display = 'none'
             } else {
                 menuclick.style.display = 'block'
             }
-        }
+        } 
     </script>
 </body>
 </html>

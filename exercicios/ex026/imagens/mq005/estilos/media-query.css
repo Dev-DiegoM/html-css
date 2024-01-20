@@ -1,8 +1,8 @@
-@media screen and (min-width: 600px) { /* Celular */
+@media screen and (min-width: 768px) { /* Tablet */
     main {
-        width: 560px;
+        width: 768px;
     }
-    
+
     header li {
         display: inline-block;
     }
@@ -16,16 +16,8 @@
     }
 }
 
-@media screen and (min-width: 769px) { /* Tablet */
-    main {
-        width: 600px;
-    }
-}
+@media screen and (min-width: 992px){ /* Desktops */
 
-@media screen and (min-width: 993px){ /* Desktops */
-    main {
-        width: 700px;
-    }
 }
 
 @media screen and (min-width: 1200px) { /* Telas grandes */
